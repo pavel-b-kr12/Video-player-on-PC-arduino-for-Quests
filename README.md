@@ -4,7 +4,7 @@ Run videos with sound on display, connected to computer, corresponding to arduin
 ## Install:
 Upload standart Firmata (or HEX file in this repo) to Arduino ar other MCU. 
 Connect MCU to PC via USB (or COM port). Install virtual serial  (COM) port driver if need.
-Open and run pde file with Processing software or run **Video-player-on-PC-arduino-for-Quests.exe** file.
+Open and run pde file with Processing software or run **PCVideoPlayerFirmata.exe** file.
 put video in "Data" folder near .exe
 Rename video to "e0.avi" where "e" is prefix . 0 is counter related to MCU pin.
 
