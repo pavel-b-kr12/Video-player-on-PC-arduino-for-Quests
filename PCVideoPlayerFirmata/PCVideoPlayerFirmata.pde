@@ -222,7 +222,7 @@ void draw() {
 }
 
 void keyPressed()
-{										print(key);
+{										//println(key);
 	switch(key)
 	{
 		case('q'): langSet("q"); break;
