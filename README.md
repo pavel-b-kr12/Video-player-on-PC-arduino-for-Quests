@@ -3,15 +3,22 @@ Run videos with sound on display, connected to computer, corresponding to arduin
 
 ## Install:
 Upload standart Firmata (or HEX file in this repo) to Arduino ar other MCU. 
+
 Connect MCU to PC via USB (or COM port). Install virtual serial  (COM) port driver if need.
+
 Open and run pde file with Processing software or run **PCVideoPlayerFirmata.exe** file.
+
 put video in "Data" folder near .exe
+
 Rename video to "e0.avi" where "e" is prefix . 0 is counter related to MCU pin.
 
 ## Usage:
-Connect A0..A7 pins with GND to start video
+Connect A0..A7 pins with GND to start video.
+
 Press PC keyboard (english) q w e r t y u i o p to select and save video prefix e.g.  "e0.avi" (mean english №0)
+
 Watch video and after it feel change from +5v to 0 on output pins.
+
 Play file manually via pressing PC keyboard 1 2 3 4 5 6 7 (1 is correspond to file "0.avi")
 
 ## Hardware:
@@ -28,6 +35,7 @@ pins D2-D10 for output LOW level. Best use with china Blue (low-level) 5v 8-chen
 
 ## Software:
 any OS that can run Processig (Java)
+
 Standart Firmata on Arduino board
 
 
